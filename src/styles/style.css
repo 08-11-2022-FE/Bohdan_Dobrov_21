@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-image: url(../img/background.jpg);
+    background-image: url(../../src/img/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -16,7 +16,7 @@ label .cardWrapper {
     position: relative;
     height: 298px;
     width: 210px;
-    background-image: url(../img/card-back.png);
+    background-image: url(../../src/img/card-back.png);
     margin: 10px;
     border-radius: calc(40vmin / 20);
     overflow: hidden;
@@ -52,7 +52,7 @@ input:checked + label .cardRandom {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url(../img/cards.jpg);
+    background-image: url(../../src/img/cards.jpg);
     background-size: cover;
     animation: randomCard 1000ms steps(51, end) infinite;
     animation-play-state: paused;
